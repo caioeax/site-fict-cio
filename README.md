@@ -1,2 +1,2 @@
-# site-fict-cio
+# site-ficticio
 site-fictício
