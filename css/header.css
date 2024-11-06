@@ -8,6 +8,7 @@ header {
     background-color: rgba(241, 241, 241, 0.5);
     backdrop-filter: blur(80px);
     box-shadow: 0 4px 8px rgb(216, 216, 216);
+    z-index: 999;
 }
 
 .header__titulo {

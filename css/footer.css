@@ -1,0 +1,16 @@
+footer {
+    text-align: center;
+    font-weight: var(--fonte-paragrafo-peso);
+    line-height: 1.5;
+}
+
+footer a {
+    color: inherit;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: transparent;
+}

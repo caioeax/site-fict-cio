@@ -1,11 +1,14 @@
 .atracoes {
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
     display: flex;
     width: 50%;
     gap: 50px;
-    margin-bottom: 50px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 50px;
+    z-index: 1; 
+    position: relative;
 }
 
 .atracoes h3 {
@@ -16,13 +19,14 @@
 
 .atracoes p {
     font-family: var(--fonte-paragrafo);
-    font-weight: var(--fonte-titulo-peso);
+    font-weight: var(--fonte-paragrafo-peso);
     line-height: 1.5;
 }
 
 .atracoes img {
-    width: 300px;
-    height: 300px;
+    width: 40%;
+    height: 40%;
+    z-index: 3; 
 }
 
 .textoEsquerda {
@@ -32,3 +36,4 @@
 .textoDireita {
     margin-left: 20px;
 }
+
