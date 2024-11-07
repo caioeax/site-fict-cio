@@ -29,6 +29,7 @@
 .form form .row {
     display: flex;
     gap: 20px;
+    margin-top: 20px;
 }
 
 .form button {
@@ -39,9 +40,11 @@
 }
 
 .form .botaoEnv {
-    display: flex;
-    justify-content: flex-end;
-    font-family: var(--fonte-paragrafo);
-    font-weight: var(--fonte-paragrafo-peso);
-    line-height: 1.5;
+    justify-self: end;
+}
+
+.form .botaoEnv:hover {
+    background-color: var(--cor-primaria);
+    color:var(--cor-secundaria);
+    transition: .3s ;
 }
